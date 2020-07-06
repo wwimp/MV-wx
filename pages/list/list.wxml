@@ -1,0 +1,49 @@
+<include src="/includes/search-bar.wxml" />
+<view class="container">
+	<view class="search">
+		<input placeholder="请输入"></input>
+		<icon type="search" size="18"></icon>
+	</view>
+	<view>
+		<view>
+			<view class="list">
+				<image src="/assets/icons/grid-0{{ category.id }}.png"></image>
+				<view class="desc">
+					<text>{{ category.id }} {{ category.name }} 叽里呱啦叽里呱啦</text>
+					<text>电话：1231231231</text>
+					<text>地址：确认乔沃维奇第三方权威</text>
+					<text>营业时间：驱蚊器恶气12133</text>
+				</view>
+				<view class="score">
+					<text>100</text>
+				</view>
+			</view>
+			<view class="list">
+				<image src="/assets/icons/grid-0{{ category.id }}.png"></image>
+				<view class="desc">
+					<text>{{ category.id }} {{ category.name }} 叽里呱啦叽里呱啦</text>
+					<text>电话：1231231231</text>
+					<text>地址：确认乔沃维奇第三方权威</text>
+					<text>营业时间：驱蚊器恶气12133</text>
+				</view>
+				<view class="score">
+					<text>100</text>
+				</view>
+			</view>
+			<view class="list">
+				<image src="/assets/icons/grid-0{{ category.id }}.png"></image>
+				<view class="desc">
+					<text>{{ category.id }} {{ category.name }} 叽里呱啦叽里呱啦</text>
+					<text>电话：1231231231</text>
+					<text>地址：确认乔沃维奇第三方权威</text>
+					<text>营业时间：驱蚊器恶气12133</text>
+				</view>
+				<view class="score">
+					<text>100</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view>
+	<view wx:else class="loadmore">没有更多内容了</view>
+</view>

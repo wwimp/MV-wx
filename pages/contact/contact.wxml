@@ -1,0 +1,3 @@
+<view>
+	<navigator url="#" bindtap="clickHandle" class="item" wx:for="{{ list }}" wx:key="id">{{ item.text }}</navigator>
+</view>
